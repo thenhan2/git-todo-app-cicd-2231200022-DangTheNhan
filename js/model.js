@@ -32,6 +32,7 @@ class TodoService {
             };
             this.todos.push(newTodo);
             this.notify(); // Notify observers of the change
+            return newTodo;
         }
     }
 
